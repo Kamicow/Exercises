@@ -1,0 +1,58 @@
+Python
+
+print(input("Bir şey yazınız."))
+
+--------------------------------------------------------------
+Java
+
+public class Main
+{
+  public static void main(String[] args {
+    java.util.Scanner kb = new java.util.Scanner(System.in);
+    String x = kb.nextLine();
+    System.out.println(x);
+  }
+}
+
+--------------------------------------------------------------
+C
+
+#include <stdio.h>
+
+int main()
+{
+  char x[20];
+  printf("Bir şey yazınız:" );
+  scanf("%s", x);
+  printf("%s", x);
+  return 0;
+}
+
+--------------------------------------------------------------
+C++
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+  string x;
+  cout << "Bir şey yazınız\t";
+  cin >> x;
+  cout << x;
+}
+
+--------------------------------------------------------------
+C#
+
+using System;
+
+  class Deneme 
+{
+    static void Main() 
+    {
+      Console.Write("Bir şey yazınız ");
+      string x = Console.ReadLine();
+      Console.Write(x);
+    }
+}
