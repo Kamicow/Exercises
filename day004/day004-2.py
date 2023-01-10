@@ -3,4 +3,4 @@ print((int(input("Silindirin yaricapini yaziniz: ")) ** 2) * int(input("Silindir
 ----------
 
 import math
-print((int(input("Silindirin yaricapini yaziniz: ")) ** 2) int(input("Silindirin yuksekliğini giriniz: ")) * math.pi)
+print((int(input("Silindirin yaricapini yaziniz: ")) ** 2) * int(input("Silindirin yuksekliğini giriniz: ")) * math.pi)
