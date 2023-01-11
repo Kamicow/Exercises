@@ -5,4 +5,4 @@ temp = x
 x = y
 y = temp
 
-print("Girdiğiniz değerlerin yeri değişti. İlk değer:", x, " İkinci değer:", y)
+print(f"Girdiğiniz değerlerin yeri değişti. İlk değer: {x} İkinci değer: {y}")
