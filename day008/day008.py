@@ -5,4 +5,4 @@ for i in range(x):
     print(i)
     sum += i
 
-print(sum)
+print("Girdiğiniz sayıya kadar olan sayıların toplamı: ", sum)
