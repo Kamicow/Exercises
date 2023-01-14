@@ -1,17 +1,17 @@
-public class Day008
+public class Main
 {
 	public static void main(String[] args) {
-	  java.util.Scanner kb = new java.util.Scanner(System.in);
-	  int i, x, sum = 0;
+		java.util.Scanner kb = new java.util.Scanner(System.in);
+		int i, x, sum = 0;
 		
-    System.out.println("Bir sayı giriniz");
+		System.out.print("Bir sayı giriniz: ");
 		x = kb.nextInt();
-		
-    for (i = 0; i < x; i += 1) {
-		    System.out.println(i);
-		    sum += i;
+
+	    	for (i = 0; i < x; i += 1) {
+			    System.out.println(i);
+			    sum += i;
 		}
-		
-    System.out.println(sum);
+
+	    	System.out.println("Girdiginiz sayıya kadar olan sayıların toplamı: " + sum);
 	}
 }
