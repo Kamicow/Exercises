@@ -14,7 +14,7 @@ int main()
         sum += i;
     }
     
-    cout << sum;
+    cout << "Girdiğiniz sayıya kadar olan tüm doğal sayıların toplamı: " << sum;
     
     return 0;
 }
