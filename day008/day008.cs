@@ -11,6 +11,6 @@ class Day008 {
         sum += i;
     }
     
-    Console.WriteLine(sum);
+    Console.WriteLine("Girdiğiniz sayıya kadar olan sayıların toplamı: " + sum);
   }
 }
