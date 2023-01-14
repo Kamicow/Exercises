@@ -12,7 +12,7 @@ int main()
         sum += i;
     }
     
-    printf("%d", sum);
+    printf("Girdiğiniz sayıya kadar olan sayıların toplamı: %d", sum);
     
     return 0;
 }
