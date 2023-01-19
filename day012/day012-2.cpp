@@ -1,11 +1,13 @@
-using System;
-class Day012 {
-  static void Main() {
-    
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
     int x, i, temp = 0;
     
-    Console.Write("Girdiğiniz sayının tek veya çift olduğunu söyleyen programa hoş geldiniz! Lütfen bir sayı giriniz: ");
-    x = Convert.ToInt32(Console.ReadLine());
+    cout << "Girdiğiniz sayının tek veya çift olduğunu söyleyen programa hoş geldiniz! Lütfen bir sayı giriniz: ";
+    cin >> x;
     
     for (i = 1; i <= x/2 + 1; i += 1) {
         temp = i * 2;
@@ -13,14 +15,14 @@ class Day012 {
         if (temp >= x){
             
             if (temp > x) {
-                Console.WriteLine("Sayınız tek bir sayıdır.");
+                cout << "Sayınız tek bir sayıdır.";
                 break;
             }
             else {
-                Console.WriteLine("Sayınız çift bir sayıdır.");
+                cout << "Sayınız çift bir sayıdır.";
                 break;
             }
-        }
+        }   
     }
-  }
+    return 0;
 }
