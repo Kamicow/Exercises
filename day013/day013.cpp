@@ -8,6 +8,7 @@ int main()
     
     cout << "Bir sayı giriniz: ";
     cin >> x;
+    
     cout << "Başka bir sayı giriniz: ";
     cin >> y;
     
