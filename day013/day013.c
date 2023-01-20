@@ -6,15 +6,14 @@ int main()
     
     printf("Bir sayı giriniz: ");
     scanf("%d", &x);
+    
     printf("Başka bir sayı giriniz: ");
     scanf("%d", &y);
     
     if (x < y)
-        printf("%d büyüktür %d", y, x);
-    
+        printf("%d büyüktür %d", y, x);    
     else if (x > y)
-        printf("%d büyüktür %d", x, y);
-        
+        printf("%d büyüktür %d", x, y);        
     else
         printf("Girdiğiniz sayılar eşittir.");
 
