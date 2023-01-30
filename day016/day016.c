@@ -3,6 +3,7 @@
 int main()
 {
     int x, i, temp = 0;
+    
     printf("Girdiğiniz sayının çarpanları gösterilecektir: ");
     scanf("%d", &x);
     
