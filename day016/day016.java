@@ -1,8 +1,8 @@
 public class Day016
 {
 	public static void main(String[] args) {
-		java.util.Scanner kb = new java.util.Scanner(System.in);
-		int x, i, temp = 0;
+	java.util.Scanner kb = new java.util.Scanner(System.in);
+	int x, i, temp = 0;
         
         System.out.print("Girdiğiniz sayının çarpanları gösterilecektir: ");
         x = kb.nextInt();
@@ -14,7 +14,7 @@ public class Day016
                 break;
                 System.out.print(i + " ");
                 System.out.println(x/i);
-            }
+        	}
         }
-	}
+    }
 }
