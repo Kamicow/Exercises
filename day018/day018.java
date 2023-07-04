@@ -1,4 +1,4 @@
-public class Main
+public class day018
 {
 	public static void main(String[] args){
         java.util.Scanner kb = new java.util.Scanner(System.in);
